@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'book_detail_page.dart';
 import 'models/book.dart';
 class BookListPage extends StatelessWidget {
+  const BookListPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
